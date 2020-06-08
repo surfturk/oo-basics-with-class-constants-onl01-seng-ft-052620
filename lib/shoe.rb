@@ -17,7 +17,7 @@ class Shoe
   def unique
     @@brands.collect do |brand|
     
-       .uniq?
+       
          
       #only include unique brands in array
      end 
