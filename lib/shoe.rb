@@ -17,7 +17,7 @@ class Shoe
   
   def unique
     @@brands.collect do |brand|
-     if brand.uniq
+     if brand.uniq?(brand)
        
          
       
