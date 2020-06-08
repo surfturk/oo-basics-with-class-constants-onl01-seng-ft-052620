@@ -15,7 +15,7 @@ class Shoe
   
   
   def unique
-    @@brands.each do |brand|
+    @@brands.collect do |brand|
       #iterate over brands array and 
       
       #only include unique brands in array
