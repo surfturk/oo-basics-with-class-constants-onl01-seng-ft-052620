@@ -9,7 +9,7 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-    BRANDS << @brand
+   # BRANDS << @brand
     
  end 
   
@@ -17,7 +17,7 @@ class Shoe
   
   def unique
     @@brands.collect do |brand|
-          brands  <<  brand.uniq?
+          @@brands  <<  brand.uniq?
        
         end  
   end  
