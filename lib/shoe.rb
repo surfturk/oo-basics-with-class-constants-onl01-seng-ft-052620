@@ -16,8 +16,8 @@ class Shoe
   
   
   def unique
-    @@brands.collect do |brand|
-          @@brands  <<  brand.uniq?
+    @brands.collect do |brand|
+          @brands  <<  brand.uniq?
        
         end  
   end  
