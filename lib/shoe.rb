@@ -15,14 +15,11 @@ class Shoe
   
   
   
-  def unique
-    @brands.collect do |brand|
-          @brands  <<  brand.uniq?
-          
-        end  
-  end  
-  
-  
+  def initialize(brand)    
+  @brand = brand     
+  if !(BRANDS.include?(@brand))     
+    BRANDS << brand 
+  end
   
   
   
