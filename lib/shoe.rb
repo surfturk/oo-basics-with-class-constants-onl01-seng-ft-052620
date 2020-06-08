@@ -14,7 +14,10 @@ class Shoe
   
   
   
-  
+  def unique
+    
+    
+  end  
   
   
   
