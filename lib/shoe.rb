@@ -16,7 +16,7 @@ class Shoe
   
   def unique
     @@brands.collect do |brand|
-      binding.pry
+    
        if brand.uniq?
          
       #only include unique brands in array
