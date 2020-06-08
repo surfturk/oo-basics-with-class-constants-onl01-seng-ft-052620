@@ -20,7 +20,7 @@ class Shoe
        
          
       #only include unique brands in array
-     end 
+     
      
   end  
     
