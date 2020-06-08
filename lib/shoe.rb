@@ -20,10 +20,11 @@ class Shoe
        if brand.uniq?
          binding.pry
       #only include unique brands in array
-      
-    end  
-    
+     end 
+     
   end  
+    
+end  
   
   
   
