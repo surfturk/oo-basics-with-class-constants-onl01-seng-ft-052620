@@ -19,13 +19,8 @@ class Shoe
     @@brands.collect do |brand|
           brands  <<  brand.uniq?
        
-         
-      
-     
-    
+        end  
   end  
-    
-end  
   
   
   
